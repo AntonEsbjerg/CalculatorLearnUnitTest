@@ -9,6 +9,7 @@ namespace CalculatorLearnUnitTest
         public double Add(double a, double b)
         {
             var result = a + b;
+            result += 1;
             return result;
         }
         public double Subtract(double a, double b)
